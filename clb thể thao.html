@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Thể thao</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+        .banner {
+            background-color: #ff5733;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .slogan {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .slogan .block {
+            flex: 1 1 100px;
+            text-align: center;
+            padding: 10px;
+        }
+        .slogan .block h3 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .content h2 {
+            grid-column: span 2;
+            color: #ff5733;
+        }
+        .club-list, .news {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .club-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .club-list ul li {
+            margin: 10px 0;
+        }
+        .club-list ul li a {
+            text-decoration: none;
+            color: #ff5733;
+            font-weight: bold;
+        }
+        .news p {
+            margin: 10px 0;
+        }
+        .news strong {
+            color: #ff5733;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: #ff5733;
+            text-decoration: none;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer ul li {
+            margin: 5px 0;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h2>CLB Thể thao trường THPT Thành phố Cao Lãnh</h2>
+    </div>
+
+    <!-- Slogan -->
+    <div class="slogan">
+        <div class="block">
+            <h3>Chơi vì đam mê</h3>
+        </div>
+        <div class="block">
+            <h3>Sinh ra để tỏa sáng</h3>
+        </div>
+        <div class="block">
+            <h3>Bùng cháy cùng trái bóng</h3>
+        </div>
+    </div>
+
+    <!-- Nội dung chính -->
+    <div class="content">
+        <!-- Danh sách câu lạc bộ -->
+        <div class="club-list">
+            <h2>Câu lạc bộ thể thao</h2>
+            <ul>
+                <li><a href="#">Bóng đá</a></li>
+                <li><a href="#">Bóng chuyền</a></li>
+                <li><a href="#">Bóng rổ</a></li>
+                <li><a href="#">Võ thuật</a></li>
+                <li><a href="#">Bơi lội</a></li>
+            </ul>
+            <img src="https://scontent.fsgn13-2.fna.fbcdn.net/v/t39.30808-6/476441381_122165473598281118_6972901483190944016_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wkYWy6MItLsQ7kNvgGBQdtf&_nc_oc=Adg_AZzG9DSgKpFdHqXHqOiNNAmJgdvjjv9c9SkX2EhhWbApPaT4eZzxHx5KAy_xQRIalsNBZnQtDD6MoQGCKHyu&_nc_zt=23&_nc_ht=scontent.fsgn13-2.fna&_nc_gid=AeytZr4jIDaiLEFTTjffyvY&oh=00_AYDIV6EW_JHTHxAl0BTaq6GCvgBZONkFk7GkDbPTzaK42A&oe=67CA35BC" alt="Sport Club">
+            <img src="https://scontent.fsgn13-1.fna.fbcdn.net/v/t39.30808-6/476833374_122165473634281118_2084739621903246029_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xFp-EfO8lE4Q7kNvgEKhh3W&_nc_oc=Adjcrqx5R-LBFwa9N0bISvbPy2koCa-5HtZtcUFmupsRuoxiYwE5hkstlGJMKH_QrK_-VME9PXRqmhl10cTd4jT4&_nc_zt=23&_nc_ht=scontent.fsgn13-1.fna&_nc_gid=AGA3c7verBxNgPbgYwP0wp2&oh=00_AYBZyKyv45RqT7KkpDyKZPN6MVnHxU_sLdn21jRT-bVHUg&oe=67CA329A" alt="Sport Event">
+            <img src="https://scontent.fsgn4-1.fna.fbcdn.net/v/t39.30808-6/474769160_122163802208281118_5921017535177936659_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=wwqkboyHdP4Q7kNvgH1RRg6&_nc_oc=AdhQytw1ARdVQzxiA3tTxmZYbnI61ql5LgErGjTWsOsiUurMt6OpPQMAhkKqV2j-VfO2ASdnAlwUwVVsY9N_ZocG&_nc_zt=23&_nc_ht=scontent.fsgn4-1.fna&_nc_gid=AnsLZN_cVrM5MJ3AMneGPAP&oh=00_AYBp674l0sEploxX9HOTZZ_7OGPSMKStxn2qoEX6tLaf0Q&oe=67CA41E4" alt="Sport Team">
+        </div>
+        <!-- Tin tức thể thao -->
+        <div class="news">
+            <h2>Tin tức thể thao mới nhất</h2>
+            <img src="https://scontent.fsgn3-1.fna.fbcdn.net/v/t39.30808-6/436282437_122093966912281118_2496448413309178729_n.png?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=hJlHeBrARiwQ7kNvgFo3mnZ&_nc_oc=AdhU53Eb-DRxM5Vr__S1Wh35IHl84vbg4Fosxrk9HE47JG6Z4w0pRVz8vMl8uNPuAjppMKa3SIx5kvBEAUzBfhZ2&_nc_zt=23&_nc_ht=scontent.fsgn3-1.fna&_nc_gid=AQE4T7r5SDD_HrbaJuPmXYE&oh=00_AYCy1M90DFI8D9fwZ6l7wyLMcwnI77iNoBv2AC3crWu0Ug&oe=67CA35BD" alt="Tournament Announcement">
+            <p>
+                Ngày 22/2 đến 23/2<br>
+                <strong>NQD BADMINTON TOURNAMENT 2025 x DUY KHÁNH SPORT</strong><br>
+                Cùng với sự tham gia của CLB Badminton THPT TP Cao Lãnh và các trường THPT Đỗ Công Tường, THPT Thiên Hộ Dương.<br>
+                <em>“Không khí nóng bỏng của giải đấu đang đến gần, các bạn đã sẵn sàng chưa!”</em>
+            </p>
+
+            <p>
+                Ngày 30/11 đến ngày 1/12 năm 2024<br>
+                <strong>Badminton club THPT - TPCL chính thức mở đơn đăng ký giải đấu nội bộ</strong><br>
+                Sự kiện giúp nâng cao sức khỏe và tạo cơ hội giao lưu, kết nối giữa các thành viên.
+            </p>
+            <img src="https://scontent.fsgn4-1.fna.fbcdn.net/v/t39.30808-6/476372458_122165473760281118_1496931881132253938_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=m5Uw0QpO41sQ7kNvgHj_yU5&_nc_oc=AdixWmuSfGtd_qvJhS49m3MszJMVeGhjc00sZirwzUPMiZI5c5Ry8EQa-d2hg71PqjduAixEwgRG1tUD2cYbxUcZ&_nc_zt=23&_nc_ht=scontent.fsgn4-1.fna&_nc_gid=AOo3lQ72F7nk4E1u28hCALT&oh=00_AYD_84-SZqJ_0FUXZM3y0_Pyc40-cAMmnZ18YxPfMmKzAw&oe=67CA4897" alt="Badminton Event">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Trường THPT Thành phố Cao Lãnh<br>
+           ĐC: 309, Thiên Hộ Dương, Phường Hòa Thuận, TP Cao Lãnh, Đồng Tháp</p>
+        <p>© THPT Thành phố Cao Lãnh, Đồng Tháp</p>
+        <p>Liên hệ:</p>
+        <ul>
+            <li>Trang face của CLB: <a href="https://www.facebook.com/Badminton.club.THPT.TPCL">CLB Cầu Lông</a></li>
+            <li>Trang face trường: <a href="https://www.facebook.com/noiuommamtuonglai1956">THPT TP Cao Lãnh</a></li>
+        </ul>
+    </div>
+</body>
+</html>

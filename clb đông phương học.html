@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Đông Phương Học</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            background-color: #FBEEC1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+        .banner {
+            background-color: #FF6633;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .slogan {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: #A0A0A0;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .slogan .block {
+            flex: 1 1 100px;
+            text-align: center;
+            padding: 10px;
+        }
+        .slogan .block h3 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .content h2 {
+            grid-column: span 2;
+            color: #ff5733;
+        }
+        .content h3 {
+            grid-column: span 2;
+            color: #ff5733;
+        }
+        .club-list, .news {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .club-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .club-list ul li {
+            margin: 10px 0;
+        }
+        .club-list ul li a {
+            text-decoration: none;
+            color: #ff5733;
+            font-weight: bold;
+        }
+        .news p {
+            margin: 10px 0;
+        }
+        .news strong {
+            color: #ff5733;
+        }
+        .footer {
+            background-color: #FFFFFF;
+            color: #000000;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: #ff5733;
+            text-decoration: none;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer ul li {
+            margin: 5px 0;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h2>CLB Đông Phương học-Trường THPT Thành phố Cao Lãnh</h2>
+    </div>
+
+    <!-- Slogan -->
+    <div class="slogan">
+        <div class="block">
+            <h3>Năng động</h3>
+        </div>
+        <div class="block">
+            <h3>Hội nhập</h3>
+        </div>
+        <div class="block">
+            <h3>Sáng tạo</h3>
+        </div>
+    </div>
+      
+    <!-- Nội dung chính -->
+    <div class="content">
+        <div class="news">
+            <h2>ĐÔNG PHƯƠNG HỌC LÀ GÌ</h2>
+            <p>Đông phương học là ngành khoa học xã hội<br> nghiên cứu chuyên sâu về con người,<br> lịch sử, địa lý, văn hóa, kinh tế…<br> của các quốc gia phương Đông như:<br> Nhật Bản, Hàn Quốc, Trung Quốc, Ấn Độ, Úc, Đông Nam Á.</p>
+            <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/474220700_583637071148943_6185538341819561361_n.jpg?stp=c180.0.1080.1080a_dst-jpg_s206x206_tt6&_nc_cat=108&ccb=1-7&_nc_sid=50ad20&_nc_ohc=HUjNIr9Xt7UQ7kNvgFF2LLs&_nc_oc=Adjp3-TjDp-Zp5fo_HlRP6ROxwCDaNshixo2vp7iIg7tcljDQo0xTpplfvL-jlQUR4NERUSFRE3cKr3YABX0FU6E&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=A-YQKcac_tj6CSWeVQ6PeqI&oh=00_AYD6b2YO3fMPqKDTn8XlVhFQDT4s_3GYZRMQ-DFTa0MHOg&oe=67C8DAF1" alt="Đông Phương Học">
+        </div>
+        <div class="news">
+            <h3>ĐÔNG PHƯƠNG HỌC DÀNH CHO NHỮNG ĐỐI TƯỢNG NÀO?</h3>
+            <p>Nếu bạn có thiên hướng xã hội và năng động;<br> bạn muốn khám phá và<br>nghiên cứu giá trị ngôn ngữ, văn hóa,<br> lịch sử, địa lý, kinh tế, chính trị của các quốc gia;<br> nếu bạn muốn làm việc<br> trong môi trường Nhật Bản, Hàn Quốc, Trung Quốc…,<br> thì thật tuyệt vời:=> hãy chọn ngành Đông Phương học!</p>
+            <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/474490701_583637107815606_8694716946529716409_n.jpg?stp=c0.177.1080.1080a_dst-jpg_s206x206_tt6&_nc_cat=108&ccb=1-7&_nc_sid=50ad20&_nc_ohc=JJmwXx-4urYQ7kNvgHJqbnj&_nc_oc=Adg4OQnoOruv1wibTVKxcCFcoQXxzP_wY56gCDEEt1CC-2gKuduRwlzTYEplO8m2JvGwbNnI6y3-M_KkTMx9-LWO&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=A-YQKcac_tj6CSWeVQ6PeqI&oh=00_AYB4HZFcTQNpq8IEBnjOdR-_yDj3MJ5F_-DkXGsQDBnibg&oe=67C8D640" alt="Đông Phương Học Đối Tượng">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Trường THPT Thành phố Cao Lãnh<br>
+        ĐC: 309, Thiên Hộ Dương, Phường Hòa Thuận, TP Cao Lãnh, Đồng Tháp</p>
+        <p>© THPT Thành phố Cao Lãnh, Đồng Tháp</p>
+        <p>Liên hệ:</p>
+        <ul>
+            <li>Trang face của CLB: <a href="https://www.facebook.com/profile.php?id=100085079642590">CLB Đông Phương Học</a></li>
+            <li>Trang face trường: <a href="https://www.facebook.com/noiuommamtuonglai1956">THPT TP Cao Lãnh</a></li>
+        </ul>
+    </div>
+</body>
+</html>
